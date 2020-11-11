@@ -79,4 +79,20 @@ $(document).ready(function() {
         offset: '50%'
     })
 
+    // Mobile Nav
+    $('.js--nav-icon').click(function() {
+        let nav = $('.js--main-nav');
+        let icon = $('.js--nav-icon i');
+
+        nav.slideToggle(200);
+
+        if (icon.hasClass('ion-android-menu')) {
+            icon.addClass('ion-ios-close');
+            icon.removeClass('ion-android-menu');
+        } else {
+            icon.addClass('ion-android-menu');
+            icon.removeClass('ion-ios-close');
+        }
+    })
+
 });

@@ -39,6 +39,36 @@
 
     .main-nav { display: none; }
 
+    .hamburger-icon { 
+        display: inline-block; 
+        margin-top: 20px;
+    }
+
+    .main-nav {
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        font-size: 100%;
+        padding: 10px 0;
+    }
+
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px; }
+    .sticky .hamburger-icon { margin-top: 10px; }
+    .sticky .hamburger-icon i { color: #555; }
+
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     h3 { text-align: center; }
