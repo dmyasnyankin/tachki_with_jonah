@@ -155,7 +155,7 @@ input[type=submit]:active {
 /* ------------------------------------------------------------ */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/ye-massa-ZYyfZ8vnhmA-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/adam-gonzales-LreAxJ9Fz40-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -170,6 +170,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
+
 .logo {
     margin-top: 20px;
     height: 70px;
@@ -177,6 +178,17 @@ header {
     float: left;
     color: #fff;
 }
+
+.logo-black { 
+    display: none; 
+    color: #000;
+    margin: 5px 0;
+    height: 50px;
+    width: auto;
+    float: left;
+}
+
+/* MAIN NAVI */
 
 .main-nav {
     margin-top: 45px;
@@ -204,6 +216,29 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #546de5;
 }
+
+/* STICKY NAVI */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 17px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
+
 
 /* ------------------------------------------------------------ */
 /* SECTION - FEATURES */
@@ -274,7 +309,7 @@ header {
 /* ------------------------------------------------------------ */
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/mike-von-2DRZeQ4t2Wk-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/mike-von-2DRZeQ4t2Wk-unsplash.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -415,4 +450,21 @@ footer p {
     font-size: 70%;
     color: #555;
     text-align: center;
+}
+
+/* ------------------------------------------------------------ */
+/* ANIMATIONS */
+/* ------------------------------------------------------------ */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
 }

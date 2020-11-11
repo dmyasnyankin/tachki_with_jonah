@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -18,23 +19,24 @@
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.svg" alt="Tachki Logo" class="logo">
+                <img src="resources/img/logo-black.svg" alt="Tachki Logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#features">About us</a></li>
+                    <li><a href="#how">How it works</a></li>
+                    <li><a href="#reviews">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>The best car deals.<br>In the palm of your hands.</h1>
-            <a class="btn btn-full" href="#">Contact me</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full js--scroll-to-contact" href="#">Contact me</a>
+            <a class="btn btn-ghost js--scroll-to-next" href="#">Show me more</a>
         </div>
 
     </header>
 
-    <section class="section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Buying a car is stressful &mdash; we are here to help</h2>
             <p class="long-copy">
@@ -42,7 +44,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <ion-icon name="trending-down-outline" class="icon-big"></ion-icon>
                 <!-- <ion-icon name="infinite-outline" class="icon-big"></ion-icon> -->
@@ -70,14 +72,14 @@
         </div>
     </section>
 
-    <section class="section-how">
+    <section class="section-how" id="how">
         <div class="row">
             <h2>The Process &mdash; How it works</h2>
         </div>
 
         <div class="row">
             <div class="col span-1-of-2 step-box">
-                <img src="resources/img/beamer-slide.png" alt="Alfa Romeo Prolly" class="car-slide">
+                <img src="resources/img/beamer-slide.png" alt="Alfa Romeo Prolly" class="car-slide js--wp-2">
             </div>
 
             <div class="col span-1-of-2 step-box">
@@ -103,7 +105,7 @@
         </div>
     </section>
 
-    <section class="section-testimonials">
+    <section class="section-testimonials" id="reviews">
         <div class="row">
             <h2>Hear what our customers have to say!</h2>
         </div>
@@ -131,9 +133,9 @@
 
     </section>
 
-    <section class="section-contact">
+    <section class="section-contact js--section-contact" id="contact">
         <div class="row">
-            <h2>Get in touch</h2>
+            <h2 class="js--wp-3">Get in touch</h2>
         </div>
         <div class="row">
             <form method="POST" action="#" class="contact-form">
@@ -212,7 +214,10 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 
 </html>

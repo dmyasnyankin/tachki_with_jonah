@@ -19,13 +19,12 @@
     }
 
     .step-box { margin-top: 10px; }
-    .step-box:last-child { margin-top: 10px; }
     .step { margin-bottom: 40px; }
     .step:last-child { margin-bottom: 60px; }
-
+    .step { width: 100%; }
     /* .car-slide { width: 50%; } */
 
-    .contact-form { width: 80%; }
+    .contact-form { width: 70%; }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
@@ -42,22 +41,36 @@
 
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
+    h3 { text-align: center; }
+
+    .icon-big { margin-left: 42%; }
 
     .long-copy {
-        width: 100%;
-        margin-left: 0%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .col p {
+        width: 80%;
+        margin-left: 10%;
     }
 
     .step-box:first-child { text-align: center; }
-    .step { margin-bottom: 20px; }
+    .step { 
+        margin-bottom: 20px;
+        width: 80%;
+        margin-left: 10%;
+     }
     .step:last-child { margin-bottom: 20px; }
     .step div {
         height: 40px;
         width: 40px;
         margin-right: 15px;
-        padding: 4px;
+        padding: 6px;
         font-size: 120%;
     }
+
+    form .col { padding: 4px; }
 
     /* .car-slide { width: 40%; } */
 }
