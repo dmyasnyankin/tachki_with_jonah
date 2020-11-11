@@ -259,7 +259,7 @@ header {
 .step-box:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .step-box:last-child {
@@ -300,8 +300,10 @@ header {
 }
 
 .car-slide {
-    height: 320px;
-    width: auto;
+    /* height: 320px; */
+    /* width: auto; */
+    height: 400px;
+    width: 100%;
 }
 
 /* ------------------------------------------------------------ */
