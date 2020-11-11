@@ -386,6 +386,18 @@ textarea {
 
 *:focus { outline: none;}
 
+.form-messages {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.success { background-color: rgba(9, 143, 16, 0.5);}
+.error { background-color: rgba(143, 18, 9, 0.5);}
+
 /* ------------------------------------------------------------ */
 /* SECTION - FOOTER */
 /* ------------------------------------------------------------ */
