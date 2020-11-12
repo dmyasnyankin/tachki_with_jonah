@@ -32,6 +32,10 @@
     body { font-size: 16px; }
     section { padding: 30px 0; }
 
+    header {
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/adam-gonzales-LreAxJ9Fz40-unsplash.jpg);
+    }
+
     .row,
     .hero-text-box { padding: 0 4%; }
 
@@ -85,6 +89,10 @@
         margin-left: 10%;
     }
 
+    .section-testimonials {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/eric-weber-GAVSpEx6ooc-unsplash.jpg);
+    }
+
     .step-box:first-child { text-align: center; }
     .step { 
         margin-bottom: 20px;
@@ -102,11 +110,59 @@
 
     form .col { padding: 4px; }
 
-    /* .car-slide { width: 40%; } */
+    form div:last-of-type { text-align: center; }
+    input[type=submit] { margin: 0; }
+
+
+    ul.footer-nav {
+        float: none;
+        text-align: center;
+    }
+
+    ul.social-links {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    form .col {margin: 0;}
+
+    footer { padding: 30px;}
+
 }
 
 /* Small phones and devices: from 0 to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
+
+
+    .btn-ghost:link,
+    .btn-ghost:visited {
+        margin-top: 15px;
+    }
+
+    .section-how{padding-bottom: 0;}
+
+    .car-slide {height: 250px;}
+
+    .step div {
+        margin-top: 2%;
+        margin-left: -10px;
+    }
+
+    .step p {
+        width: 100%;
+        font-size: 95%;
+    }
+
+    .step-box:first-child {
+        margin-top: 0;
+    }
+
+    .step-box:last-of-type { 
+        margin: 20px 0;
+        padding-left: 0;
+    }
+
     .contact-form { width: 100%; }
 }
