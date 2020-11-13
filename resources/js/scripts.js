@@ -13,7 +13,7 @@ $(document).ready(function() {
             $('nav').removeClass('sticky');
         }
     }, {
-        offset: '50px'
+        offset: '90%'
     });
 
     // For splash page buttons
