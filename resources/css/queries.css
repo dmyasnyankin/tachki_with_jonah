@@ -34,6 +34,7 @@
 
     header {
         background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/adam-gonzales-LreAxJ9Fz40-unsplash.jpg);
+        background-size: contain;
     }
 
     .row,
