@@ -155,7 +155,7 @@ input[type=submit]:active {
 /* ------------------------------------------------------------ */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/rodan-can-6cqJPeTIuls-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/eduardo-flores-FxjjnBvXq-Y-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -172,8 +172,8 @@ header {
 
 
 .logo {
-    margin-top: 20px;
-    height: 70px;
+    margin-top: 30px;
+    height: 50px;
     width: auto;
     float: left;
     color: #fff;
@@ -262,34 +262,52 @@ header {
 }
 
 /* ------------------------------------------------------------ */
-/* SECTION - HOW IT WORKS */
+/* SECTION - HOW IT WORKS - NEW */
 /* ------------------------------------------------------------ */
 
 .section-how {
+    background-image: linear-gradient(rgba(245,245,245,0.2), rgba(245,245,245,0)),url(img/rodan-can-how-v8.jpg);
+    background-size: cover;
+    background-position: center;
     background-color: rgb(245, 245, 245);
+}
+
+.h2-process {
+    background-color: rgba(245, 245, 245, 0.75);
+    padding-top: 25px;
+    border-radius: 5px;
 }
 
 .step-box:first-child {
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
 }
 
 .step-box:last-child {
     padding-left: 3%;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
-.car-slide {
-    width: 40%;
+.step div {
+    background-color: rgba(245,245,245,0.85);
+    border-radius: 5px;
+    padding: 10px 5px 15px 5px;
 }
 
 .step {
     margin-bottom: 50px;
+    padding-left: 6%;
 }
+.step-2{ padding-left: 13.5%;}
+.step-3{ padding-left: 21%;}
 
 .step-box:last-of-type {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
+}
+
+.step p { 
+    font-size: 90%;
+    width: 90%;
 }
 
 .step div {
@@ -306,25 +324,12 @@ header {
     margin-right: 25px;
 }
 
-.car-logo {
-    height: 50px;
-    width: auto;
-    margin-right: 15px;
-}
-
-.car-slide {
-    height: 320px; 
-    width: auto;
-    /* height: 400px;
-    width: 100%; */
-}
-
 /* ------------------------------------------------------------ */
 /* SECTION - TESTIMONIALS */
 /* ------------------------------------------------------------ */
 
 .section-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/eric-saunders-crUGdn1j-RE-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(img/sebastian-kurpiel-cbx-wAfj_sw-unsplash.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -484,14 +489,18 @@ footer p {
 /* ------------------------------------------------------------ */
 
 .js--wp-1,
-.js--wp-2,
+.js--wp-2v0,
+.js--wp-2v1,
+.js--wp-2v2,
 .js--wp-3 {
     opacity: 0;
     animation-duration: 1s;
 }
 
 .js--wp-1.animated,
-.js--wp-2.animated,
+.js--wp-2v0.animated,
+.js--wp-2v1.animated,
+.js--wp-2v2.animated,
 .js--wp-3.animated {
     opacity: 1;
 }

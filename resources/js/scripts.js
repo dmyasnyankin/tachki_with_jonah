@@ -68,10 +68,20 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     })
-    $('.js--wp-2').waypoint(function(direction){
-        $('.js--wp-2').addClass('animated slideInLeft');
+    $('.js--wp-2v0').waypoint(function(direction){
+        $('.js--wp-2v0').addClass('animated slideInLeft');
     }, {
-        offset: '50%'
+        offset: '65%'
+    })
+    $('.js--wp-2v1').waypoint(function(direction){
+        $('.js--wp-2v1').addClass('animated slideInLeft');
+    }, {
+        offset: '65%'
+    })
+    $('.js--wp-2v2').waypoint(function(direction){
+        $('.js--wp-2v2').addClass('animated slideInLeft');
+    }, {
+        offset: '65%'
     })
     $('.js--wp-3').waypoint(function(direction){
         $('.js--wp-3').addClass('animated jackInTheBox');
