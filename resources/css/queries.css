@@ -34,7 +34,7 @@
 
     header {
         background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/adam-gonzales-LreAxJ9Fz40-unsplash.jpg);
-        background-size: contain;
+        background-attachment: scroll;
     }
 
     .row,
@@ -92,6 +92,7 @@
 
     .section-testimonials {
         background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/eric-weber-GAVSpEx6ooc-unsplash.jpg);
+        background-attachment: scroll;
     }
 
     .step-box:first-child { text-align: center; }
